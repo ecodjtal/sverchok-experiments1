@@ -1,0 +1,204 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Float": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "BPM",
+      "location": [
+        -129.86837768554688,
+        68.90819549560547
+      ],
+      "params": {
+        "float_": 120.0
+      },
+      "width": 140.0
+    },
+    "Float to Int": {
+      "bl_idname": "Float2IntNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "beats",
+      "location": [
+        672.3463745117188,
+        116.9935302734375
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Float.001": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "FPS",
+      "location": [
+        -132.29913330078125,
+        169.7822265625
+      ],
+      "params": {
+        "float_": 24.0
+      },
+      "width": 140.0
+    },
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -121.75817108154297,
+        -40.847808837890625
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "FPB",
+      "location": [
+        245.52037048339844,
+        184.1726531982422
+      ],
+      "params": {
+        "items_": "DIV"
+      },
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        74.59992980957031,
+        88.0471420288086
+      ],
+      "params": {
+        "items_": "DIV",
+        "y": 60.0
+      },
+      "width": 140.0
+    },
+    "Math.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        460.8575134277344,
+        104.25895690917969
+      ],
+      "params": {
+        "items_": "DIV"
+      },
+      "width": 140.0
+    },
+    "Stethoscope": {
+      "bl_idname": "SvStethoscopeNode",
+      "color": [
+        0.5,
+        0.5,
+        1.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        888.4461059570312,
+        129.58987426757812
+      ],
+      "params": {
+        "text_color": [
+          0.949999988079071,
+          0.949999988079071,
+          0.949999988079071
+        ]
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Float",
+      "Float",
+      "Math.001",
+      "X"
+    ],
+    [
+      "Float.001",
+      "Float",
+      "Math",
+      "X"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Math",
+      "Y"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "Math.002",
+      "X"
+    ],
+    [
+      "Math",
+      "float",
+      "Math.002",
+      "Y"
+    ],
+    [
+      "Math.002",
+      "float",
+      "Float to Int",
+      "float"
+    ],
+    [
+      "Float to Int",
+      "int",
+      "Stethoscope",
+      "Data"
+    ]
+  ]
+}

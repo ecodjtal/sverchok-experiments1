@@ -1,0 +1,335 @@
+{
+  "export_version": "0.060",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Float": {
+      "bl_idname": "FloatNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        26.116302490234375,
+        81.3833236694336
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Frame Info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -718.3494873046875,
+        71.863525390625
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Random": {
+      "bl_idname": "RandomNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -662.5716552734375,
+        -139.10690307617188
+      ],
+      "params": {
+        "count_inner": 4,
+        "seed": 12.390000343322754
+      },
+      "width": 140.0
+    },
+    "Switch": {
+      "bl_idname": "SvSwitchNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        279.158935546875,
+        154.26890563964844
+      ],
+      "params": {
+        "switch_state": 1
+      },
+      "width": 140.0
+    },
+    "Vector Sort": {
+      "bl_idname": "SvVertSortNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        686.6873779296875,
+        -21.745880126953125
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Vectors polar in": {
+      "bl_idname": "VectorPolarInNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        499.158935546875,
+        -9.869941711425781
+      ],
+      "params": {
+        "phi_": 19.770000457763672,
+        "rho_": 0.7499998807907104,
+        "z_": 0.0
+      },
+      "width": 100.0
+    },
+    "Viewer Draw2": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        922.3486328125,
+        -13.36297607421875
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "function": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -10.938323974609375,
+        -20.34872817993164
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 32.97999954223633
+      },
+      "width": 140.0
+    },
+    "function.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -278.3494873046875,
+        49.509033203125
+      ],
+      "params": {
+        "items_": "SINE",
+        "y": 32.97999954223633
+      },
+      "width": 140.0
+    },
+    "function.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -498.3494873046875,
+        43.920413970947266
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.10999998450279236
+      },
+      "width": 140.0
+    },
+    "function.003": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        188.14498901367188,
+        -59.46907043457031
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 9.140000343322754
+      },
+      "width": 140.0
+    },
+    "function.004": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        24.2452449798584,
+        200.4018096923828
+      ],
+      "params": {
+        "items_": "COSINE",
+        "y": 32.97999954223633
+      },
+      "width": 140.0
+    },
+    "function.005": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -315.6770935058594,
+        183.63595581054688
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.10999998450279236
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Frame Info",
+      "Current Frame",
+      "function.005",
+      "X"
+    ],
+    [
+      "function.005",
+      "float",
+      "function.004",
+      "X"
+    ],
+    [
+      "function.004",
+      "float",
+      "Switch",
+      "T 0"
+    ],
+    [
+      "Float",
+      "Float",
+      "Switch",
+      "F 0"
+    ],
+    [
+      "Frame Info",
+      "Current Frame",
+      "function.002",
+      "X"
+    ],
+    [
+      "function.002",
+      "float",
+      "function.001",
+      "X"
+    ],
+    [
+      "Random",
+      "Random",
+      "function",
+      "X"
+    ],
+    [
+      "function.001",
+      "float",
+      "function",
+      "Y"
+    ],
+    [
+      "function",
+      "float",
+      "function.003",
+      "X"
+    ],
+    [
+      "Switch",
+      "Out 0",
+      "Vectors polar in",
+      "rho"
+    ],
+    [
+      "function.003",
+      "float",
+      "Vectors polar in",
+      "phi"
+    ],
+    [
+      "Vectors polar in",
+      "Vectors",
+      "Vector Sort",
+      "Vertices"
+    ],
+    [
+      "Vector Sort",
+      "Vertices",
+      "Viewer Draw2",
+      "vertices"
+    ]
+  ]
+}

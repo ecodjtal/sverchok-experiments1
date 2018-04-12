@@ -1,0 +1,686 @@
+{
+  "export_version": "0.060",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Circle": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        833.4930419921875,
+        81.36642456054688
+      ],
+      "params": {
+        "degr_": 6.2831854820251465,
+        "rad_": 0.5199999809265137,
+        "vert_": 3
+      },
+      "width": 166.65521240234375
+    },
+    "Easing": {
+      "bl_idname": "SvEasingNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        371.1760559082031,
+        -25.59657096862793
+      ],
+      "params": {
+        "selected_mode": "15"
+      },
+      "width": 140.0
+    },
+    "Easing.001": {
+      "bl_idname": "SvEasingNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        555.3079223632812,
+        19.195873260498047
+      ],
+      "params": {
+        "selected_mode": "30"
+      },
+      "width": 140.0
+    },
+    "Easing.002": {
+      "bl_idname": "SvEasingNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        445.06585693359375,
+        -198.83262634277344
+      ],
+      "params": {
+        "selected_mode": "1"
+      },
+      "width": 140.0
+    },
+    "Easing.003": {
+      "bl_idname": "SvEasingNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        630.6923217773438,
+        -140.99554443359375
+      ],
+      "params": {
+        "selected_mode": "27"
+      },
+      "width": 140.0
+    },
+    "Easing.004": {
+      "bl_idname": "SvEasingNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        447.89605712890625,
+        536.8025512695312
+      ],
+      "params": {
+        "selected_mode": "2"
+      },
+      "width": 140.0
+    },
+    "Frame Info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -369.6712341308594,
+        1.9435310363769531
+      ],
+      "params": {},
+      "width": 135.2836151123047
+    },
+    "Integer": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        885.0658569335938,
+        -119.9674072265625
+      ],
+      "params": {
+        "int_": 228
+      },
+      "width": 140.0
+    },
+    "Integer.001": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1355.7099609375,
+        314.00677490234375
+      ],
+      "params": {
+        "int_": 149
+      },
+      "width": 140.0
+    },
+    "Map Range": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1141.45458984375,
+        211.7469940185547
+      ],
+      "params": {
+        "new_max": 0.370000422000885
+      },
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1613.216064453125,
+        -26.730937957763672
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "NGon": {
+      "bl_idname": "SvNGonNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1345.5986328125,
+        215.18096923828125
+      ],
+      "params": {
+        "rad_": 0.3100000023841858,
+        "rand_phi_": 0.0,
+        "sides_": 3
+      },
+      "width": 140.0
+    },
+    "Rotation": {
+      "bl_idname": "SvRotationNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1339.32373046875,
+        -14.397499084472656
+      ],
+      "params": {
+        "mode": "EULER",
+        "x_": 0.0,
+        "y_": 0.0
+      },
+      "width": 140.0
+    },
+    "Rotation.001": {
+      "bl_idname": "SvRotationNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1737.276611328125,
+        397.5389709472656
+      ],
+      "params": {
+        "mode": "EULER",
+        "x_": 0.0,
+        "y_": 0.0
+      },
+      "width": 140.0
+    },
+    "Viewer Draw2": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2338.627685546875,
+        218.50668334960938
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Wireframe": {
+      "bl_idname": "SvWireframeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2114.353271484375,
+        492.8512268066406
+      ],
+      "params": {
+        "thickness": 0.09999999403953552
+      },
+      "width": 140.0
+    },
+    "function": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        24.629009246826172,
+        50.77124786376953
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "function.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -157.10415649414062,
+        82.848876953125
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.01999998278915882
+      },
+      "width": 140.0
+    },
+    "function.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        211.38818359375,
+        42.192996978759766
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 2.3600006103515625
+      },
+      "width": 140.0
+    },
+    "function.003": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        881.0508422851562,
+        236.68661499023438
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.9500000476837158
+      },
+      "width": 140.0
+    },
+    "function.004": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        228.2158203125,
+        -205.5286407470703
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 3.1399993896484375
+      },
+      "width": 140.0
+    },
+    "function.005": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -153.9599151611328,
+        -98.26153564453125
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.01999998278915882
+      },
+      "width": 140.0
+    },
+    "function.006": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        54.499351501464844,
+        -168.13613891601562
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "function.007": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -147.79010009765625,
+        307.3136291503906
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.23000046610832214
+      },
+      "width": 140.0
+    },
+    "function.008": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        102.34161376953125,
+        317.9392395019531
+      ],
+      "params": {},
+      "width": 146.66510009765625
+    },
+    "function.009": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        572.093017578125,
+        322.33636474609375
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 46.230003356933594
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Frame Info",
+      "Current Frame",
+      "function.001",
+      "X"
+    ],
+    [
+      "function.001",
+      "float",
+      "function",
+      "X"
+    ],
+    [
+      "function",
+      "float",
+      "function.002",
+      "X"
+    ],
+    [
+      "function.002",
+      "float",
+      "Easing",
+      "Float"
+    ],
+    [
+      "Easing",
+      "Float",
+      "Easing.001",
+      "Float"
+    ],
+    [
+      "Easing.001",
+      "Float",
+      "Circle",
+      "Radius"
+    ],
+    [
+      "Frame Info",
+      "Current Frame",
+      "function.005",
+      "X"
+    ],
+    [
+      "function.005",
+      "float",
+      "function.006",
+      "X"
+    ],
+    [
+      "function.006",
+      "float",
+      "function.004",
+      "X"
+    ],
+    [
+      "function.004",
+      "float",
+      "Easing.002",
+      "Float"
+    ],
+    [
+      "Easing.002",
+      "Float",
+      "Easing.003",
+      "Float"
+    ],
+    [
+      "Easing.003",
+      "Float",
+      "Integer",
+      "Integer"
+    ],
+    [
+      "Frame Info",
+      "Current Frame",
+      "function.007",
+      "X"
+    ],
+    [
+      "function.007",
+      "float",
+      "function.008",
+      "X"
+    ],
+    [
+      "function.008",
+      "float",
+      "Easing.004",
+      "Float"
+    ],
+    [
+      "Easing.001",
+      "Float",
+      "function.003",
+      "X"
+    ],
+    [
+      "function.003",
+      "float",
+      "Map Range",
+      "Value"
+    ],
+    [
+      "Easing.004",
+      "Float",
+      "function.009",
+      "X"
+    ],
+    [
+      "function.009",
+      "float",
+      "Integer.001",
+      "Integer"
+    ],
+    [
+      "Map Range",
+      "Value",
+      "NGon",
+      "Radius"
+    ],
+    [
+      "NGon",
+      "Vertices",
+      "Rotation.001",
+      "Vertices"
+    ],
+    [
+      "Integer.001",
+      "Integer",
+      "Rotation.001",
+      "Z"
+    ],
+    [
+      "Rotation.001",
+      "Vertices",
+      "Wireframe",
+      "vertices"
+    ],
+    [
+      "NGon",
+      "Polygons",
+      "Wireframe",
+      "polygons"
+    ],
+    [
+      "Circle",
+      "Vertices",
+      "Rotation",
+      "Vertices"
+    ],
+    [
+      "Integer",
+      "Integer",
+      "Rotation",
+      "Z"
+    ],
+    [
+      "Rotation",
+      "Vertices",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Rotation.001",
+      "Vertices",
+      "Viewer Draw2",
+      "vertices"
+    ],
+    [
+      "NGon",
+      "Polygons",
+      "Viewer Draw2",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer Draw2",
+      "matrix"
+    ]
+  ]
+}

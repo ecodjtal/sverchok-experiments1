@@ -1,0 +1,318 @@
+{
+  "export_version": "0.060",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Frame Info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -759.3099975585938,
+        32.78040313720703
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Map Range": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -720.2169189453125,
+        -117.62265014648438
+      ],
+      "params": {
+        "new_max": 0.2500004172325134,
+        "new_min": 0.05999999865889549,
+        "value": -18.579999923706055
+      },
+      "width": 140.0
+    },
+    "Map Range.001": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -698.546875,
+        -185.86102294921875
+      ],
+      "params": {
+        "new_max": 0.2500004172325134,
+        "new_min": 0.05999999865889549,
+        "value": -18.579999923706055
+      },
+      "width": 140.0
+    },
+    "Random": {
+      "bl_idname": "RandomNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -950.342529296875,
+        -91.65583801269531
+      ],
+      "params": {
+        "count_inner": 2,
+        "seed": 8.639999389648438
+      },
+      "width": 140.0
+    },
+    "Random.001": {
+      "bl_idname": "RandomNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -921.448974609375,
+        -220.89511108398438
+      ],
+      "params": {
+        "count_inner": 3,
+        "seed": 5.309999942779541
+      },
+      "width": 140.0
+    },
+    "Scale": {
+      "bl_idname": "SvScaleNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        124.738037109375,
+        21.097923278808594
+      ],
+      "params": {
+        "factor_": 1.989999771118164
+      },
+      "width": 140.0
+    },
+    "Vectors polar in": {
+      "bl_idname": "VectorPolarInNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -64.79034423828125,
+        28.718996047973633
+      ],
+      "params": {
+        "angles_mode": "radians",
+        "coordinates": "theta_",
+        "phi_": 38.87999725341797,
+        "rho_": 1.3199996948242188,
+        "theta_": 37.86000061035156,
+        "z_": 2.8499999046325684
+      },
+      "width": 116.51052856445312
+    },
+    "Viewer Draw2": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        402.5874328613281,
+        84.67776489257812
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "function": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -472.6410827636719,
+        2.8411359786987305
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.2500000298023224
+      },
+      "width": 140.0
+    },
+    "function.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -298.0450744628906,
+        4.908964157104492
+      ],
+      "params": {
+        "items_": "COSINE"
+      },
+      "width": 140.0
+    },
+    "function.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -299.07696533203125,
+        -111.92332458496094
+      ],
+      "params": {
+        "items_": "SINE"
+      },
+      "width": 140.0
+    },
+    "function.003": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -480.8963623046875,
+        -138.8050994873047
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.2500000298023224
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Random.001",
+      "Random",
+      "Map Range.001",
+      "Value"
+    ],
+    [
+      "Frame Info",
+      "Current Frame",
+      "function.003",
+      "X"
+    ],
+    [
+      "Map Range.001",
+      "Value",
+      "function.003",
+      "Y"
+    ],
+    [
+      "function.003",
+      "float",
+      "function.002",
+      "X"
+    ],
+    [
+      "Random",
+      "Random",
+      "Map Range",
+      "Value"
+    ],
+    [
+      "Frame Info",
+      "Current Frame",
+      "function",
+      "X"
+    ],
+    [
+      "Map Range",
+      "Value",
+      "function",
+      "Y"
+    ],
+    [
+      "function",
+      "float",
+      "function.001",
+      "X"
+    ],
+    [
+      "function.001",
+      "float",
+      "Vectors polar in",
+      "phi"
+    ],
+    [
+      "function.002",
+      "float",
+      "Vectors polar in",
+      "Z"
+    ],
+    [
+      "Vectors polar in",
+      "Vectors",
+      "Scale",
+      "Vertices"
+    ],
+    [
+      "Scale",
+      "Vertices",
+      "Viewer Draw2",
+      "vertices"
+    ]
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "export_version": "0.060",
+  "framed_nodes": {},
+  "groups": {
+    "SvGroup.002": "{\"update_lists\": [[\"Plane\", \"Vertices\", \"List Shift.002\", \"data\"], [\"List Shift.002\", \"data\", \"List Reverse.001\", \"data\"], [\"Integer\", \"Integer\", \"Float\", \"Float\"], [\"Float\", \"Float\", \"Random Vector\", \"Count\"], [\"Group Inputs.001\", \"0:Seed\", \"Random Vector\", \"Seed\"], [\"Group Inputs.001\", \"1:Seed\", \"Random\", \"Seed\"], [\"Random\", \"Random\", \"Vectors in\", \"X\"], [\"Random\", \"Random\", \"Vectors in\", \"Y\"], [\"Random\", \"Random\", \"Vectors in\", \"Z\"], [\"Vectors in\", \"Vectors\", \"Scale\", \"Vertices\"], [\"Random Vector\", \"Random\", \"List Shift\", \"data\"], [\"List Shift\", \"data\", \"List Reverse\", \"data\"], [\"List Reverse\", \"data\", \"List Shift.001\", \"data\"], [\"List Shift.001\", \"data\", \"Vector Math\", \"U\"], [\"List Reverse.001\", \"data\", \"Vector Math\", \"V\"], [\"Vector Math\", \"W\", \"Scale.001\", \"Vertices\"], [\"Scale.001\", \"Vertices\", \"Matrix in\", \"Location\"], [\"Scale\", \"Vertices\", \"Matrix in\", \"Scale\"], [\"ProfileNode\", \"Verts\", \"Vectors Move\", \"vertices\"], [\"Vectors in.001\", \"Vectors\", \"Vectors Move\", \"vectors\"], [\"Vectors Move\", \"vertices\", \"UV Connect\", \"vertices\"], [\"UV Connect\", \"vertices\", \"Rotation\", \"Vertices\"], [\"Rotation\", \"Vertices\", \"Group outputs.001\", \"0:Vertices\"], [\"UV Connect\", \"data\", \"Group outputs.001\", \"1:data\"], [\"Matrix in\", \"Matrix\", \"Group outputs.001\", \"2:Matrix\"]], \"export_version\": \"0.060\", \"groups\": {}, \"framed_nodes\": {}, \"nodes\": {\"List Reverse.001\": {\"location\": [-37.55918502807617, 800.5689086914062], \"label\": \"\", \"width\": 140.0, \"height\": 100.0, \"params\": {\"level\": 2}, \"bl_idname\": \"ListReverseNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": true}, \"Random Vector\": {\"location\": [-440.093994140625, 330.43939208984375], \"label\": \"\", \"width\": 140.0, \"height\": 100.0, \"params\": {\"seed\": 1258, \"count_inner\": 29}, \"bl_idname\": \"RandomVectorNode\", \"color\": [0.0, 0.5, 0.5], \"hide\": false}, \"Scale\": {\"location\": [51.12394332885742, 189.92529296875], \"label\": \"\", \"width\": 140.0, \"height\": 100.0, \"params\": {\"factor_\": 0.2800000011920929}, \"bl_idname\": \"SvScaleNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": false}, \"Matrix in\": {\"location\": [287.8722839355469, 274.52655029296875], \"label\": \"\", \"width\": 140.0, \"height\": 100.0, \"params\": {}, \"bl_idname\": \"MatrixGenNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": false}, \"Vectors in\": {\"location\": [-113.3126220703125, 165.91754150390625], \"label\": \"\", \"width\": 100.0, \"height\": 100.0, \"params\": {}, \"bl_idname\": \"GenVectorsNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": false}, \"Group Inputs.001\": {\"location\": [-1478.406494140625, 337.4505920410156], \"label\": \"\", \"width\": 140.0, \"height\": 100.0, \"params\": {\"socket_data\": \"{'outputs': [('StringsSocket', '0:Seed'), ('StringsSocket', '1:Seed')]}\"}, \"bl_idname\": \"SvGroupInputsNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": false}, \"Float\": {\"location\": [-718.7073974609375, 174.17274475097656], \"label\": \"\", \"width\": 140.0, \"height\": 100.0, \"params\": {\"float_\": 17.020000457763672}, \"bl_idname\": \"FloatNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": false}, \"Scale.001\": {\"location\": [136.92213439941406, 394.8188171386719], \"label\": \"\", \"width\": 140.0, \"height\": 100.0, \"params\": {\"factor_\": 2.4099998474121094}, \"bl_idname\": \"SvScaleNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": false}, \"ProfileNode\": {\"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"location\": [-1178.406494140625, -7.8148040771484375], \"label\": \"Z\", \"width\": 140.0, \"height\": 100.0, \"params\": {\"filename\": \"Text\", \"current_axis\": \"Z\", \"selected_axis\": \"Z\"}, \"bl_idname\": \"SvProfileNode\", \"path_file\": \"M 0,0\\nL 0,1 1,1 1,0 2,0 2,-1 1,-1 1,-2 0,-2 0,-1 -1,-1 -1,0 0,0\\nX\\n\", \"hide\": false}, \"List Reverse\": {\"location\": [-141.28184509277344, 849.2006225585938], \"label\": \"\", \"width\": 140.0, \"height\": 100.0, \"params\": {\"level\": 3}, \"bl_idname\": \"ListReverseNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": true}, \"Plane\": {\"location\": [-477.2544860839844, 763.5194702148438], \"label\": \"\", \"width\": 140.0, \"height\": 100.0, \"params\": {\"step_X\": 0.7599999904632568, \"int_Y\": 3, \"step_Y\": 0.6999999284744263, \"int_X\": 3}, \"bl_idname\": \"PlaneNode\", \"color\": [0.0, 0.5, 0.5], \"hide\": false}, \"Random\": {\"location\": [-319.09423828125, 152.4716339111328], \"label\": \"\", \"width\": 161.59869384765625, \"height\": 100.0, \"params\": {\"seed\": 7.110000133514404, \"count_inner\": 5}, \"bl_idname\": \"RandomNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": false}, \"Vectors in.001\": {\"location\": [-972.8388671875, -210.62567138671875], \"label\": \"\", \"width\": 100.0, \"height\": 100.0, \"params\": {\"x_\": -0.5, \"y_\": 0.5}, \"bl_idname\": \"GenVectorsNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": false}, \"Integer\": {\"location\": [-881.53271484375, 170.6626739501953], \"label\": \"\", \"width\": 140.0, \"height\": 100.0, \"params\": {\"int_\": 6}, \"bl_idname\": \"IntegerNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": false}, \"List Shift.001\": {\"location\": [-16.026058197021484, 855.6021728515625], \"label\": \"\", \"width\": 134.88758850097656, \"height\": 100.0, \"params\": {\"shift_c\": 2, \"level\": 1}, \"bl_idname\": \"ShiftNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": true}, \"List Shift.002\": {\"location\": [-223.08157348632812, 790.3067016601562], \"label\": \"\", \"width\": 140.0, \"height\": 100.0, \"params\": {\"shift_c\": 3, \"level\": 1}, \"bl_idname\": \"ShiftNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": true}, \"Vector Math\": {\"location\": [-19.94973373413086, 507.2940673828125], \"label\": \"COMPONENT-WISE\", \"width\": 140.0, \"height\": 100.0, \"params\": {\"scalar_output_socket\": 0, \"items_\": \"COMPONENT-WISE\"}, \"bl_idname\": \"VectorMathNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": false}, \"Rotation\": {\"location\": [-470.2238464355469, -98.4736328125], \"label\": \"\", \"width\": 140.0, \"height\": 100.0, \"params\": {\"angle_\": -4.170000076293945, \"mode\": \"EULER\", \"y_\": 0.0, \"x_\": 0.0, \"z_\": 45.0}, \"bl_idname\": \"SvRotationNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": false}, \"Group outputs.001\": {\"location\": [587.872314453125, 337.4505920410156], \"label\": \"\", \"width\": 140.0, \"height\": 100.0, \"params\": {\"socket_data\": \"{'inputs': [('VerticesSocket', '0:Vertices'), ('StringsSocket', '1:data'), ('MatrixSocket', '2:Matrix')]}\"}, \"bl_idname\": \"SvGroupOutputsNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": false}, \"UV Connect\": {\"location\": [-666.3570556640625, -103.0245361328125], \"label\": \"\", \"width\": 140.0, \"height\": 100.0, \"params\": {\"polygons\": 1, \"dir_check\": \"U_dir\", \"cicl_check\": 0, \"slice_check\": 1}, \"bl_idname\": \"LineConnectNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": false}, \"List Shift\": {\"location\": [-278.040771484375, 841.518798828125], \"label\": \"\", \"width\": 140.0, \"height\": 100.0, \"params\": {\"shift_c\": 1, \"level\": 1}, \"bl_idname\": \"ShiftNode\", \"color\": [1.0, 0.30000001192092896, 0.0], \"hide\": true}, \"Vectors in.002\": {\"location\": [-130.91224670410156, 326.7479248046875], \"label\": \"\", \"width\": 100.0, \"height\": 100.0, \"params\": {}, \"bl_idname\": \"GenVectorsNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": false}, \"Vectors Move\": {\"location\": [-851.741455078125, -81.29212951660156], \"label\": \"\", \"width\": 140.0, \"height\": 100.0, \"params\": {\"mult_\": 1.0}, \"bl_idname\": \"VectorMoveNode\", \"color\": [0.6079999804496765, 0.6079999804496765, 0.6079999804496765], \"hide\": false}}}"
+  },
+  "nodes": {
+    "Group": {
+      "bl_idname": "SvGroupNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -339.2375183105469,
+        164.93978881835938
+      ],
+      "params": {
+        "group_name": "SvGroup.002"
+      },
+      "width": 140.0
+    },
+    "Integer.001": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -571.410888671875,
+        102.91770935058594
+      ],
+      "params": {
+        "int_": 350
+      },
+      "width": 140.0
+    },
+    "Viewer Draw2.001": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        0.10626253485679626,
+        1.0,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -67.68167114257812,
+        228.49649047851562
+      ],
+      "params": {
+        "activate": 1,
+        "vertex_colors": [
+          0.5536050200462341,
+          0.7114242315292358,
+          0.9479996562004089
+        ]
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Integer.001",
+      "Integer",
+      "Group",
+      "0:Seed"
+    ],
+    [
+      "Integer.001",
+      "Integer",
+      "Group",
+      "1:Seed"
+    ],
+    [
+      "Group",
+      "0:Vertices",
+      "Viewer Draw2.001",
+      "vertices"
+    ],
+    [
+      "Group",
+      "1:data",
+      "Viewer Draw2.001",
+      "edg_pol"
+    ],
+    [
+      "Group",
+      "2:Matrix",
+      "Viewer Draw2.001",
+      "matrix"
+    ]
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "export_version": "0.062",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Easing 0..1": {
+      "bl_idname": "SvEasingNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -280.0,
+        180.0
+      ],
+      "params": {
+        "selected_mode": "12"
+      },
+      "width": 140.0
+    },
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -940.0,
+        120.0
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "List Join": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        340.0,
+        -20.0
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "List Join.001": {
+      "bl_idname": "ListJoinNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -60.0,
+        -60.0
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -440.0,
+        140.0
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 16.420001983642578
+      },
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -740.0,
+        140.0
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.04000052809715271
+      },
+      "width": 140.0
+    },
+    "Math.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -560.0,
+        60.0
+      ],
+      "params": {
+        "items_": "SINE",
+        "y": 0.49000054597854614
+      },
+      "width": 140.0
+    },
+    "Math.003": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -480.0,
+        -40.0
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 7.540003776550293
+      },
+      "width": 140.0
+    },
+    "Mirror": {
+      "bl_idname": "SvMirrorNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        160.0,
+        60.0
+      ],
+      "params": {},
+      "width": 133.52157592773438
+    },
+    "NGon": {
+      "bl_idname": "SvNGonNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -300.0,
+        20.0
+      ],
+      "params": {
+        "rad_": 0.8200000524520874,
+        "rand_phi_": 0.0,
+        "rand_r_": 0.06000000238418579,
+        "rand_seed_": 1.1999999284744263,
+        "sides_": 3
+      },
+      "width": 149.05691528320312
+    },
+    "Rotation": {
+      "bl_idname": "SvRotationNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -40.0,
+        160.0
+      ],
+      "params": {
+        "mode": "QUAT",
+        "w_": 18.06999969482422,
+        "x_": 57.80999755859375,
+        "y_": 45.089996337890625,
+        "z_": 35.400001525878906
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -100.0,
+        -100.0
+      ],
+      "params": {
+        "x_": 0.0,
+        "y_": 0.0,
+        "z_": -0.8700000047683716
+      },
+      "width": 100.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        460.0,
+        180.0
+      ],
+      "params": {
+        "edge_colors": [
+          0.1299431025981903,
+          0.5466901063919067,
+          0.8989997506141663
+        ],
+        "face_colors": [
+          0.8989997506141663,
+          0.2403510957956314,
+          0.476226806640625
+        ],
+        "vertex_colors": [
+          0.9479996562004089,
+          0.8878334760665894,
+          0.51657634973526
+        ]
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "NGon",
+      "Polygons",
+      "List Join.001",
+      "data"
+    ],
+    [
+      "NGon",
+      "Polygons",
+      "List Join.001",
+      "data 1"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "Math.001",
+      "X"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Math.002",
+      "X"
+    ],
+    [
+      "Math.002",
+      "float",
+      "Math",
+      "X"
+    ],
+    [
+      "Math",
+      "float",
+      "Easing 0..1",
+      "Float"
+    ],
+    [
+      "NGon",
+      "Vertices",
+      "Rotation",
+      "Vertices"
+    ],
+    [
+      "Easing 0..1",
+      "Float",
+      "Rotation",
+      "Y"
+    ],
+    [
+      "Easing 0..1",
+      "Float",
+      "Rotation",
+      "W"
+    ],
+    [
+      "Math.002",
+      "float",
+      "Math.003",
+      "X"
+    ],
+    [
+      "Math.003",
+      "float",
+      "Vector in",
+      "Z"
+    ],
+    [
+      "Rotation",
+      "Vertices",
+      "Mirror",
+      "Vertices"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Mirror",
+      "Vert A"
+    ],
+    [
+      "Mirror",
+      "Vertices",
+      "List Join",
+      "data"
+    ],
+    [
+      "Rotation",
+      "Vertices",
+      "List Join",
+      "data 1"
+    ],
+    [
+      "List Join",
+      "data",
+      "Viewer Draw",
+      "vertices"
+    ],
+    [
+      "List Join.001",
+      "data",
+      "Viewer Draw",
+      "edg_pol"
+    ]
+  ]
+}

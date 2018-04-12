@@ -1,0 +1,418 @@
+{
+  "export_version": "0.060",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Circle": {
+      "bl_idname": "SvCircleNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        837.9765014648438,
+        85.85777282714844
+      ],
+      "params": {
+        "degr_": 6.2831854820251465,
+        "rad_": 0.5199999809265137,
+        "vert_": 4
+      },
+      "width": 166.65521240234375
+    },
+    "Easing": {
+      "bl_idname": "SvEasingNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        371.1760559082031,
+        -25.59657096862793
+      ],
+      "params": {
+        "selected_mode": "7"
+      },
+      "width": 140.0
+    },
+    "Easing.001": {
+      "bl_idname": "SvEasingNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        591.176025390625,
+        31.17280387878418
+      ],
+      "params": {
+        "selected_mode": "2"
+      },
+      "width": 140.0
+    },
+    "Frame Info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -352.37786865234375,
+        42.890235900878906
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Integer": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        698.62451171875,
+        -119.9674072265625
+      ],
+      "params": {
+        "int_": 90
+      },
+      "width": 140.0
+    },
+    "Integer.001": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1332.622802734375,
+        319.9952392578125
+      ],
+      "params": {
+        "int_": 225
+      },
+      "width": 140.0
+    },
+    "Map Range": {
+      "bl_idname": "SvMapRangeNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1127.36962890625,
+        235.93479919433594
+      ],
+      "params": {
+        "new_max": 0.4300004243850708
+      },
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1407.403564453125,
+        -88.18035888671875
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "NGon": {
+      "bl_idname": "SvNGonNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1345.5986328125,
+        215.18096923828125
+      ],
+      "params": {
+        "rad_": 0.3100000023841858,
+        "rand_phi_": 0.0,
+        "sides_": 4
+      },
+      "width": 140.0
+    },
+    "Rotation": {
+      "bl_idname": "SvRotationNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1165.796630859375,
+        59.9886474609375
+      ],
+      "params": {
+        "mode": "EULER",
+        "x_": 0.0,
+        "y_": 0.0
+      },
+      "width": 140.0
+    },
+    "Rotation.001": {
+      "bl_idname": "SvRotationNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1565.5986328125,
+        264.0035705566406
+      ],
+      "params": {
+        "mode": "EULER",
+        "x_": 0.0,
+        "y_": 0.0
+      },
+      "width": 140.0
+    },
+    "Viewer Draw2": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2032.162841796875,
+        161.75411987304688
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "function": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        24.629009246826172,
+        50.77124786376953
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "function.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -157.10415649414062,
+        82.848876953125
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.04999998211860657
+      },
+      "width": 140.0
+    },
+    "function.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        211.38818359375,
+        42.192996978759766
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 1.4000003337860107
+      },
+      "width": 140.0
+    },
+    "function.003": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        905.5985717773438,
+        221.37130737304688
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.6799999475479126
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Frame Info",
+      "Current Frame",
+      "function.001",
+      "X"
+    ],
+    [
+      "function.001",
+      "float",
+      "function",
+      "X"
+    ],
+    [
+      "function",
+      "float",
+      "function.002",
+      "X"
+    ],
+    [
+      "function.002",
+      "float",
+      "Easing",
+      "Float"
+    ],
+    [
+      "Easing",
+      "Float",
+      "Easing.001",
+      "Float"
+    ],
+    [
+      "Easing.001",
+      "Float",
+      "Circle",
+      "Radius"
+    ],
+    [
+      "Easing",
+      "Float",
+      "function.003",
+      "X"
+    ],
+    [
+      "function.003",
+      "float",
+      "Map Range",
+      "Value"
+    ],
+    [
+      "Map Range",
+      "Value",
+      "NGon",
+      "Radius"
+    ],
+    [
+      "Circle",
+      "Vertices",
+      "Rotation",
+      "Vertices"
+    ],
+    [
+      "Integer",
+      "Integer",
+      "Rotation",
+      "Z"
+    ],
+    [
+      "Rotation",
+      "Vertices",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "NGon",
+      "Vertices",
+      "Rotation.001",
+      "Vertices"
+    ],
+    [
+      "Integer.001",
+      "Integer",
+      "Rotation.001",
+      "Z"
+    ],
+    [
+      "Rotation.001",
+      "Vertices",
+      "Viewer Draw2",
+      "vertices"
+    ],
+    [
+      "NGon",
+      "Polygons",
+      "Viewer Draw2",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer Draw2",
+      "matrix"
+    ]
+  ]
+}

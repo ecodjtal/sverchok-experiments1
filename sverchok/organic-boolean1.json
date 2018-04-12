@@ -1,0 +1,339 @@
+{
+  "export_version": "0.062",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "CSG BooleanNode": {
+      "bl_idname": "SvCSGBooleanNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        960.0,
+        140.0
+      ],
+      "params": {
+        "selected_mode": "DIFF"
+      },
+      "width": 140.0
+    },
+    "Convex Hull": {
+      "bl_idname": "SvConvexHullNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        80.0,
+        120.0
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Convex Hull.001": {
+      "bl_idname": "SvConvexHullNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        740.0,
+        -40.0
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Frame Info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -200.0,
+        -200.0
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Integer": {
+      "bl_idname": "IntegerNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -240.0,
+        0.0
+      ],
+      "params": {
+        "int_": 21
+      },
+      "width": 140.0
+    },
+    "Random Vector": {
+      "bl_idname": "RandomVectorNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -80.0,
+        80.0
+      ],
+      "params": {
+        "count_inner": 6,
+        "seed": 152
+      },
+      "width": 140.0
+    },
+    "Random Vector.001": {
+      "bl_idname": "RandomVectorNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -80.0,
+        -20.0
+      ],
+      "params": {
+        "count_inner": 5,
+        "seed": 139
+      },
+      "width": 140.0
+    },
+    "Scale": {
+      "bl_idname": "SvScaleNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        240.0,
+        -20.0
+      ],
+      "params": {
+        "factor_": 61.42000961303711
+      },
+      "width": 140.0
+    },
+    "Scale.001": {
+      "bl_idname": "SvScaleNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        11800.0,
+        -100.0
+      ],
+      "params": {
+        "factor_": 3.8499999046325684
+      },
+      "width": 140.0
+    },
+    "Scale.002": {
+      "bl_idname": "SvScaleNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        580.0,
+        -60.0
+      ],
+      "params": {
+        "factor_": 1.899999976158142
+      },
+      "width": 140.0
+    },
+    "Vector Noise": {
+      "bl_idname": "SvNoiseNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        420.0,
+        -60.0
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Viewer Draw2": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1200.0,
+        160.0
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "function": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        20.0,
+        -180.0
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.06999999284744263
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Integer",
+      "Integer",
+      "Random Vector",
+      "Count"
+    ],
+    [
+      "Random Vector",
+      "Random",
+      "Convex Hull",
+      "Vertices"
+    ],
+    [
+      "Frame Info",
+      "Current Frame",
+      "function",
+      "X"
+    ],
+    [
+      "Integer",
+      "Integer",
+      "Random Vector.001",
+      "Count"
+    ],
+    [
+      "Random Vector.001",
+      "Random",
+      "Scale",
+      "Vertices"
+    ],
+    [
+      "function",
+      "float",
+      "Scale",
+      "Factor"
+    ],
+    [
+      "Scale",
+      "Vertices",
+      "Vector Noise",
+      "Vertices"
+    ],
+    [
+      "Vector Noise",
+      "Noise V",
+      "Scale.002",
+      "Vertices"
+    ],
+    [
+      "Scale.002",
+      "Vertices",
+      "Convex Hull.001",
+      "Vertices"
+    ],
+    [
+      "Convex Hull",
+      "Vertices",
+      "CSG BooleanNode",
+      "Verts A"
+    ],
+    [
+      "Convex Hull",
+      "Polygons",
+      "CSG BooleanNode",
+      "Polys A"
+    ],
+    [
+      "Convex Hull.001",
+      "Vertices",
+      "CSG BooleanNode",
+      "Verts B"
+    ],
+    [
+      "Convex Hull.001",
+      "Polygons",
+      "CSG BooleanNode",
+      "Polys B"
+    ],
+    [
+      "CSG BooleanNode",
+      "Vertices",
+      "Viewer Draw2",
+      "vertices"
+    ],
+    [
+      "CSG BooleanNode",
+      "Polygons",
+      "Viewer Draw2",
+      "edg_pol"
+    ]
+  ]
+}

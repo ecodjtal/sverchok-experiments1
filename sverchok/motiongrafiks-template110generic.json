@@ -1,0 +1,290 @@
+{
+  "export_version": "0.063",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Frame info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -81.60366821289062,
+        -478.75775146484375
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Math": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        746.3179931640625,
+        -226.27694702148438
+      ],
+      "params": {
+        "items_": "COSINE"
+      },
+      "width": 140.0
+    },
+    "Math.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        763.7008056640625,
+        -352.6110534667969
+      ],
+      "params": {
+        "items_": "SINE",
+        "y": 0.37000006437301636
+      },
+      "width": 137.66644287109375
+    },
+    "Math.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        537.3253173828125,
+        -351.12139892578125
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 45.43000030517578
+      },
+      "width": 137.66644287109375
+    },
+    "Math.003": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        496.8488464355469,
+        -197.8930206298828
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 43.480003356933594
+      },
+      "width": 137.66644287109375
+    },
+    "Math.004": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        208.85159301757812,
+        -320.41754150390625
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.03999999165534973
+      },
+      "width": 140.0
+    },
+    "Math.005": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        308.9977722167969,
+        -481.7456359863281
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.010000014677643776
+      },
+      "width": 140.0
+    },
+    "Range Int": {
+      "bl_idname": "GenListRangeIntNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        260.37347412109375,
+        -123.56974792480469
+      ],
+      "params": {
+        "step_": 1,
+        "stop_": 10
+      },
+      "width": 141.87872314453125
+    },
+    "Scale": {
+      "bl_idname": "SvScaleNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1189.53173828125,
+        -248.96044921875
+      ],
+      "params": {
+        "factor_": 2.440000057220459
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1009.5316772460938,
+        -282.71441650390625
+      ],
+      "params": {},
+      "width": 100.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1409.53173828125,
+        -52.360530853271484
+      ],
+      "params": {},
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Frame info",
+      "Current Frame",
+      "Math.005",
+      "X"
+    ],
+    [
+      "Range Int",
+      "Range",
+      "Math.002",
+      "X"
+    ],
+    [
+      "Math.005",
+      "float",
+      "Math.002",
+      "Y"
+    ],
+    [
+      "Frame info",
+      "Current Frame",
+      "Math.004",
+      "X"
+    ],
+    [
+      "Range Int",
+      "Range",
+      "Math.003",
+      "X"
+    ],
+    [
+      "Math.004",
+      "float",
+      "Math.003",
+      "Y"
+    ],
+    [
+      "Math.003",
+      "float",
+      "Math",
+      "X"
+    ],
+    [
+      "Math.002",
+      "float",
+      "Math.001",
+      "X"
+    ],
+    [
+      "Math",
+      "float",
+      "Vector in",
+      "X"
+    ],
+    [
+      "Math.001",
+      "float",
+      "Vector in",
+      "Y"
+    ],
+    [
+      "Vector in",
+      "Vectors",
+      "Scale",
+      "Vertices"
+    ],
+    [
+      "Scale",
+      "Vertices",
+      "Viewer Draw",
+      "vertices"
+    ]
+  ]
+}

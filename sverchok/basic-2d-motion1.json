@@ -1,0 +1,257 @@
+{
+  "export_version": "0.060",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Easing": {
+      "bl_idname": "SvEasingNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        68.04637145996094,
+        -152.47531127929688
+      ],
+      "params": {
+        "selected_mode": "4"
+      },
+      "width": 140.0
+    },
+    "Frame Info": {
+      "bl_idname": "SvFrameInfoNode",
+      "color": [
+        0.0,
+        0.5,
+        0.20000000298023224
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -669.0174560546875,
+        -143.64019775390625
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "MatrixGenNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        707.7415771484375,
+        -173.48931884765625
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Plane": {
+      "bl_idname": "PlaneNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        350.7282409667969,
+        74.32536315917969
+      ],
+      "params": {
+        "step_X": 1.0,
+        "step_Y": 1.0
+      },
+      "width": 140.0
+    },
+    "Vectors in": {
+      "bl_idname": "GenVectorsNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        421.3719787597656,
+        -178.71434020996094
+      ],
+      "params": {
+        "x_": 0.0,
+        "y_": -0.5099999904632568,
+        "z_": 0.0
+      },
+      "width": 100.0
+    },
+    "Viewer Draw2": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        883.956298828125,
+        2.416015625
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "function": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -262.99102783203125,
+        -174.3101806640625
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "function.001": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -449.091552734375,
+        -108.80560302734375
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 0.10999998450279236
+      },
+      "width": 140.0
+    },
+    "function.002": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -142.26806640625,
+        -123.3621826171875
+      ],
+      "params": {
+        "items_": "MUL",
+        "y": 1.9100005626678467
+      },
+      "width": 140.0
+    },
+    "function.003": {
+      "bl_idname": "ScalarMathNode",
+      "color": [
+        0.6079999804496765,
+        0.6079999804496765,
+        0.6079999804496765
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        232.88253784179688,
+        -234.40090942382812
+      ],
+      "params": {
+        "items_": "SUB",
+        "y": 0.5600007772445679
+      },
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Frame Info",
+      "Current Frame",
+      "function.001",
+      "X"
+    ],
+    [
+      "function.001",
+      "float",
+      "function",
+      "X"
+    ],
+    [
+      "function",
+      "float",
+      "function.002",
+      "X"
+    ],
+    [
+      "function.002",
+      "float",
+      "Easing",
+      "Float"
+    ],
+    [
+      "Easing",
+      "Float",
+      "function.003",
+      "X"
+    ],
+    [
+      "function.003",
+      "float",
+      "Vectors in",
+      "X"
+    ],
+    [
+      "Vectors in",
+      "Vectors",
+      "Matrix in",
+      "Location"
+    ],
+    [
+      "Plane",
+      "Vertices",
+      "Viewer Draw2",
+      "vertices"
+    ],
+    [
+      "Plane",
+      "Polygons",
+      "Viewer Draw2",
+      "edg_pol"
+    ],
+    [
+      "Matrix in",
+      "Matrix",
+      "Viewer Draw2",
+      "matrix"
+    ]
+  ]
+}
