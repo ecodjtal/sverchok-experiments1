@@ -1,0 +1,2583 @@
+{
+  "export_version": "0.072",
+  "framed_nodes": {},
+  "groups": {},
+  "nodes": {
+    "Convex Hull": {
+      "bl_idname": "SvConvexHullNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2196.75537109375,
+        401.9144287109375
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Convex Hull.001": {
+      "bl_idname": "SvConvexHullNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        519.670654296875,
+        -906.5211791992188
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Convex Hull.002": {
+      "bl_idname": "SvConvexHullNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        306.37652587890625,
+        -2199.634521484375
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Convex Hull.003": {
+      "bl_idname": "SvConvexHullNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2572.95166015625,
+        -1067.1107177734375
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Extrude Separate Faces": {
+      "bl_idname": "SvExtrudeSeparateNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2379.334228515625,
+        422.5216064453125
+      ],
+      "params": {
+        "height_": 0.14999999105930328,
+        "scale_": 0.7300000190734863
+      },
+      "width": 140.0
+    },
+    "Float": {
+      "bl_idname": "FloatNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1807.1322021484375,
+        84.64013671875
+      ],
+      "params": {
+        "float_": 0.6399999856948853
+      },
+      "width": 140.0
+    },
+    "Float.001": {
+      "bl_idname": "FloatNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1723.69482421875,
+        -788.8810424804688
+      ],
+      "params": {
+        "float_": 78.76000213623047
+      },
+      "width": 140.0
+    },
+    "List Input": {
+      "bl_idname": "SvListInputNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1636.4312744140625,
+        432.17144775390625
+      ],
+      "params": {
+        "int_": 2,
+        "int_list": [
+          -1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "mode": "int_list"
+      },
+      "width": 140.0
+    },
+    "List Join": {
+      "bl_idname": "ListJoinNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        184.5780029296875,
+        416.2104797363281
+      ],
+      "params": {
+        "mix_check": 0
+      },
+      "width": 140.0
+    },
+    "List Join.001": {
+      "bl_idname": "ListJoinNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        162.0328369140625,
+        190.79559326171875
+      ],
+      "params": {
+        "mix_check": 0
+      },
+      "width": 140.0
+    },
+    "List Join.002": {
+      "bl_idname": "ListJoinNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1994.0609130859375,
+        461.74346923828125
+      ],
+      "params": {
+        "JoinLevel": 2,
+        "mix_check": 0,
+        "wrap_check": 0
+      },
+      "width": 140.0
+    },
+    "List Join.003": {
+      "bl_idname": "ListJoinNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        304.12744140625,
+        -837.4994506835938
+      ],
+      "params": {
+        "JoinLevel": 2,
+        "mix_check": 0
+      },
+      "width": 140.0
+    },
+    "List Join.004": {
+      "bl_idname": "ListJoinNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -80.3123779296875,
+        -740.1000366210938
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "List Join.005": {
+      "bl_idname": "ListJoinNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -121.7867431640625,
+        -2099.354248046875
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "List Join.006": {
+      "bl_idname": "ListJoinNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        173.91152954101562,
+        -2155.7626953125
+      ],
+      "params": {
+        "JoinLevel": 2,
+        "mix_check": 0
+      },
+      "width": 140.0
+    },
+    "List Join.007": {
+      "bl_idname": "ListJoinNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1968.5118408203125,
+        -914.0577392578125
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "List Join.008": {
+      "bl_idname": "ListJoinNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2352.95166015625,
+        -1011.4571533203125
+      ],
+      "params": {
+        "JoinLevel": 2,
+        "mix_check": 0
+      },
+      "width": 140.0
+    },
+    "List Slice": {
+      "bl_idname": "ListSliceNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -598.7032470703125,
+        -568.1098022460938
+      ],
+      "params": {
+        "level": 1,
+        "start": 1,
+        "stop": 2
+      },
+      "width": 140.0
+    },
+    "List Slice.001": {
+      "bl_idname": "ListSliceNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -590.9947509765625,
+        -494.17498779296875
+      ],
+      "params": {
+        "level": 1,
+        "start": 2,
+        "stop": 3
+      },
+      "width": 140.0
+    },
+    "List Slice.002": {
+      "bl_idname": "ListSliceNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -588.890869140625,
+        -444.74267578125
+      ],
+      "params": {
+        "level": 1,
+        "start": 0,
+        "stop": 1
+      },
+      "width": 140.0
+    },
+    "List Slice.003": {
+      "bl_idname": "ListSliceNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -612.6903686523438,
+        -650.384765625
+      ],
+      "params": {
+        "level": 1,
+        "start": 3,
+        "stop": 4
+      },
+      "width": 140.0
+    },
+    "List Slice.004": {
+      "bl_idname": "ListSliceNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -638.3281860351562,
+        -839.2530517578125
+      ],
+      "params": {
+        "level": 1,
+        "start": 4,
+        "stop": 5
+      },
+      "width": 140.0
+    },
+    "List Slice.005": {
+      "bl_idname": "ListSliceNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -655.6543579101562,
+        -937.2667236328125
+      ],
+      "params": {
+        "level": 1,
+        "start": 5,
+        "stop": 6
+      },
+      "width": 140.0
+    },
+    "List Slice.006": {
+      "bl_idname": "ListSliceNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -738.461669921875,
+        -1854.7989501953125
+      ],
+      "params": {
+        "level": 1,
+        "start": 6,
+        "stop": 7
+      },
+      "width": 140.0
+    },
+    "List Slice.007": {
+      "bl_idname": "ListSliceNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -722.6317138671875,
+        -1916.466064453125
+      ],
+      "params": {
+        "level": 1,
+        "start": 7,
+        "stop": 8
+      },
+      "width": 140.0
+    },
+    "List Slice.008": {
+      "bl_idname": "ListSliceNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -765.0389404296875,
+        -1993.4705810546875
+      ],
+      "params": {
+        "level": 1,
+        "start": 8,
+        "stop": 9
+      },
+      "width": 140.0
+    },
+    "List Slice.009": {
+      "bl_idname": "ListSliceNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -713.42431640625,
+        -2038.0518798828125
+      ],
+      "params": {
+        "level": 1,
+        "start": 8,
+        "stop": 9
+      },
+      "width": 140.0
+    },
+    "List Slice.010": {
+      "bl_idname": "ListSliceNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -779.3255615234375,
+        -2152.44140625
+      ],
+      "params": {
+        "level": 1,
+        "start": 9,
+        "stop": 10
+      },
+      "width": 140.0
+    },
+    "List Slice.011": {
+      "bl_idname": "ListSliceNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -678.0768432617188,
+        -1014.8506469726562
+      ],
+      "params": {
+        "level": 1,
+        "start": 10,
+        "stop": 11
+      },
+      "width": 140.0
+    },
+    "List Slice.012": {
+      "bl_idname": "ListSliceNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -756.7796020507812,
+        -1126.08935546875
+      ],
+      "params": {
+        "level": 1,
+        "start": 11,
+        "stop": 12
+      },
+      "width": 140.0
+    },
+    "List Slice.013": {
+      "bl_idname": "ListSliceNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -905.761962890625,
+        221.1455535888672
+      ],
+      "params": {
+        "level": 1,
+        "start": 12,
+        "stop": 13
+      },
+      "width": 140.0
+    },
+    "List Slice.014": {
+      "bl_idname": "ListSliceNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -879.2548217773438,
+        -3.0994210243225098
+      ],
+      "params": {
+        "level": 1,
+        "start": 13,
+        "stop": 14
+      },
+      "width": 140.0
+    },
+    "List Slice.015": {
+      "bl_idname": "ListSliceNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -868.8378295898438,
+        -242.65228271484375
+      ],
+      "params": {
+        "level": 1,
+        "start": 14,
+        "stop": 15
+      },
+      "width": 140.0
+    },
+    "Map Range": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -458.7104187011719,
+        -460.16070556640625
+      ],
+      "params": {
+        "new_max": 0.3399994373321533,
+        "new_min": 0.0,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": 5.630000114440918
+      },
+      "width": 140.0
+    },
+    "Map Range.001": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -470.2813415527344,
+        -523.2650146484375
+      ],
+      "params": {
+        "new_max": 2.409999370574951,
+        "new_min": 1.6200000047683716,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": -3.5999999046325684
+      },
+      "width": 140.0
+    },
+    "Map Range.002": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -470.4375915527344,
+        -581.64013671875
+      ],
+      "params": {
+        "new_max": 0.2800000309944153,
+        "new_min": -0.41999998688697815,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": 9.210000038146973
+      },
+      "width": 140.0
+    },
+    "Map Range.003": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -447.13922119140625,
+        -644.2155151367188
+      ],
+      "params": {
+        "new_max": 0.7300000190734863,
+        "new_min": 0.030000001192092896,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": -3.9300003051757812
+      },
+      "width": 140.0
+    },
+    "Map Range.004": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -456.6064758300781,
+        -698.9065551757812
+      ],
+      "params": {
+        "new_max": 3.3399999141693115,
+        "new_min": 2.549999952316284,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": 13.559999465942383
+      },
+      "width": 140.0
+    },
+    "Map Range.005": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -470.27001953125,
+        -1798.4193115234375
+      ],
+      "params": {
+        "new_max": 3.190000057220459,
+        "new_min": 2.309999942779541,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": 12.359999656677246
+      },
+      "width": 140.0
+    },
+    "Map Range.006": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -471.33203125,
+        -762.7462158203125
+      ],
+      "params": {
+        "new_max": 1.4499999284744263,
+        "new_min": 0.5699999928474426,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": 7.860000133514404
+      },
+      "width": 138.06884765625
+    },
+    "Map Range.007": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -511.1950378417969,
+        -1866.5921630859375
+      ],
+      "params": {
+        "new_max": 1.4499999284744263,
+        "new_min": 0.5699999928474426,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": -3.089999198913574
+      },
+      "width": 140.0
+    },
+    "Map Range.008": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -501.6341857910156,
+        -1937.09130859375
+      ],
+      "params": {
+        "new_max": 0.37000006437301636,
+        "new_min": 0.05999999865889549,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": -2.4600000381469727
+      },
+      "width": 140.0
+    },
+    "Map Range.009": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -498.38848876953125,
+        -1985.1309814453125
+      ],
+      "params": {
+        "new_max": 0.43000006675720215,
+        "new_min": 0.05999999865889549,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": -8.129999160766602
+      },
+      "width": 140.0
+    },
+    "Map Range.010": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -529.2262573242188,
+        -2042.5582275390625
+      ],
+      "params": {
+        "new_max": 1.959999680519104,
+        "new_min": 0.53999924659729,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": 2.640000343322754
+      },
+      "width": 141.22076416015625
+    },
+    "Map Range.011": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -589.2193603515625,
+        -2102.468505859375
+      ],
+      "params": {
+        "new_max": 1.9000000953674316,
+        "new_min": 1.4099998474121094,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": 0.7200007438659668
+      },
+      "width": 141.22076416015625
+    },
+    "Map Range.012": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -577.8314208984375,
+        -2182.397216796875
+      ],
+      "params": {
+        "new_max": 0.4599999785423279,
+        "new_min": 0.05999999865889549,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": -2.6999998092651367
+      },
+      "width": 141.22076416015625
+    },
+    "Map Range.013": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -498.4888610839844,
+        -982.4630126953125
+      ],
+      "params": {
+        "new_max": 4.629999160766602,
+        "new_min": 3.869999408721924,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": -0.4200003147125244
+      },
+      "width": 138.06884765625
+    },
+    "Map Range.014": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -504.3749694824219,
+        -1057.7916259765625
+      ],
+      "params": {
+        "new_max": 1.8700000047683716,
+        "new_min": 1.3199999332427979,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": -3.119999885559082
+      },
+      "width": 138.06884765625
+    },
+    "Map Range.015": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -680.0874633789062,
+        290.6770935058594
+      ],
+      "params": {
+        "new_max": 1.2699999809265137,
+        "new_min": 0.8399999737739563,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": 1.2899999618530273
+      },
+      "width": 138.06884765625
+    },
+    "Map Range.016": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -687.5962524414062,
+        70.45370483398438
+      ],
+      "params": {
+        "new_max": 0.6100000143051147,
+        "new_min": 0.17999999225139618,
+        "old_max": 1.0,
+        "old_min": 0.0,
+        "value": 3.510000228881836
+      },
+      "width": 138.06884765625
+    },
+    "Map Range.017": {
+      "bl_idname": "SvMapRangeNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -645.2938232421875,
+        -154.00640869140625
+      ],
+      "params": {
+        "new_max": 8.829999923706055,
+        "new_min": 7.0,
+        "old_max": 1.0,
+        "value": 3.919999837875366
+      },
+      "width": 140.0
+    },
+    "Math MK2": {
+      "bl_idname": "SvScalarMathNodeMK2",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2024.7237548828125,
+        53.351402282714844
+      ],
+      "params": {
+        "current_op": "NEG",
+        "input_mode_two": "Float"
+      },
+      "width": 140.0
+    },
+    "Math MK2.001": {
+      "bl_idname": "SvScalarMathNodeMK2",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -476.34136962890625,
+        -2236.796630859375
+      ],
+      "params": {
+        "current_op": "ADD",
+        "y_": 0.3100000023841858
+      },
+      "width": 140.0
+    },
+    "Math MK2.002": {
+      "bl_idname": "SvScalarMathNodeMK2",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        2138.554931640625,
+        -329.23040771484375
+      ],
+      "params": {
+        "y_": 0.6399999856948853
+      },
+      "width": 140.0
+    },
+    "Math MK2.003": {
+      "bl_idname": "SvScalarMathNodeMK2",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        2135.15966796875,
+        -202.45281982421875
+      ],
+      "params": {
+        "y_": 1.179999828338623
+      },
+      "width": 140.0
+    },
+    "Math MK2.004": {
+      "bl_idname": "SvScalarMathNodeMK2",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2381.76171875,
+        -1379.1424560546875
+      ],
+      "params": {
+        "current_op": "ADD",
+        "y_": -4.429999828338623
+      },
+      "width": 140.0
+    },
+    "Math MK2.005": {
+      "bl_idname": "SvScalarMathNodeMK2",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2480.829345703125,
+        -1571.2064208984375
+      ],
+      "params": {
+        "current_op": "ADD",
+        "y_": -0.4699997007846832
+      },
+      "width": 140.0
+    },
+    "Matrix Apply (verts)": {
+      "bl_idname": "MatrixApplyNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2665.34228515625,
+        278.66400146484375
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix Apply (verts).001": {
+      "bl_idname": "MatrixApplyNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2821.98779296875,
+        -917.173828125
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Matrix in": {
+      "bl_idname": "SvMatrixGenNodeMK2",
+      "custom_socket_props": {
+        "0": {
+          "expanded": true
+        },
+        "2": {
+          "expanded": true
+        }
+      },
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2475.217529296875,
+        115.92892456054688
+      ],
+      "params": {
+        "a_": 90.0,
+        "l_": [
+          0.0,
+          0.24000000953674316,
+          2.0399999618530273
+        ],
+        "r_": [
+          -0.7200000286102295,
+          0.7799999713897705,
+          7.410000324249268
+        ],
+        "s_": [
+          0.7000000476837158,
+          0.49000006914138794,
+          1.2100000381469727
+        ]
+      },
+      "width": 140.0
+    },
+    "Matrix in.001": {
+      "bl_idname": "SvMatrixGenNodeMK2",
+      "custom_socket_props": {
+        "0": {
+          "expanded": true
+        }
+      },
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        2.500509262084961,
+        -1066.851806640625
+      ],
+      "params": {
+        "a_": 90.0,
+        "l_": [
+          0.7199999690055847,
+          0.0,
+          0.0
+        ],
+        "r_": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "width": 140.0
+    },
+    "Matrix in.002": {
+      "bl_idname": "SvMatrixGenNodeMK2",
+      "custom_socket_props": {
+        "0": {
+          "expanded": true
+        }
+      },
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -130.16709899902344,
+        -2236.36767578125
+      ],
+      "params": {
+        "a_": 90.0,
+        "l_": [
+          0.7199999690055847,
+          0.0,
+          0.0
+        ],
+        "r_": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "width": 140.0
+    },
+    "Matrix in.003": {
+      "bl_idname": "SvMatrixGenNodeMK2",
+      "custom_socket_props": {
+        "0": {
+          "expanded": true
+        }
+      },
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1994.8243408203125,
+        -1299.4324951171875
+      ],
+      "params": {
+        "a_": 90.0,
+        "l_": [
+          0.7199999690055847,
+          0.0,
+          0.0
+        ],
+        "r_": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "width": 140.0
+    },
+    "Matrix in.004": {
+      "bl_idname": "SvMatrixGenNodeMK2",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2753.5947265625,
+        -1199.421875
+      ],
+      "params": {
+        "l_": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "width": 140.0
+    },
+    "Mirror": {
+      "bl_idname": "SvMirrorNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -41.5919189453125,
+        342.3702087402344
+      ],
+      "params": {},
+      "width": 140.0
+    },
+    "Mirror.001": {
+      "bl_idname": "SvMirrorNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        143.4794921875,
+        -1018.8948364257812
+      ],
+      "params": {
+        "mode": "PLANE"
+      },
+      "width": 140.0
+    },
+    "Mirror.002": {
+      "bl_idname": "SvMirrorNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        20.918540954589844,
+        -2239.7021484375
+      ],
+      "params": {
+        "mode": "PLANE"
+      },
+      "width": 140.0
+    },
+    "Mirror.003": {
+      "bl_idname": "SvMirrorNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2142.19970703125,
+        -1144.8883056640625
+      ],
+      "params": {
+        "mode": "PLANE"
+      },
+      "width": 140.0
+    },
+    "Random": {
+      "bl_idname": "RandomNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -1464.0946044921875,
+        -892.5697021484375
+      ],
+      "params": {
+        "count_inner": 19,
+        "seed": 49.709991455078125
+      },
+      "width": 140.0
+    },
+    "Rotation": {
+      "bl_idname": "SvRotationNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -274.9600830078125,
+        351.7737121582031
+      ],
+      "params": {
+        "mode": "EULER",
+        "x_": 0.0,
+        "y_": 90.0,
+        "z_": 0.0
+      },
+      "width": 140.0
+    },
+    "Torus": {
+      "bl_idname": "SvTorusNode",
+      "color": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -481.5919189453125,
+        329.1377258300781
+      ],
+      "params": {
+        "torus_R": 0.8199999332427979,
+        "torus_eR": 0.9799999594688416,
+        "torus_iR": 0.6599999070167542,
+        "torus_n1": 7,
+        "torus_n2": 3,
+        "torus_r": 0.1600000262260437,
+        "torus_rP": 0.0,
+        "torus_sP": 0.0,
+        "torus_sT": 0
+      },
+      "use_custom_color": true,
+      "width": 140.0
+    },
+    "Triangulate mesh": {
+      "bl_idname": "SvTriangulateNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        404.5780029296875,
+        444.92620849609375
+      ],
+      "params": {
+        "quad_mode": "3"
+      },
+      "width": 140.0
+    },
+    "Vector in": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -234.6859130859375,
+        136.55636596679688
+      ],
+      "params": {
+        "x_": 0.0,
+        "y_": 2.6700000762939453,
+        "z_": 0.0
+      },
+      "width": 100.0
+    },
+    "Vector in.001": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1832.1048583984375,
+        298.35247802734375
+      ],
+      "params": {
+        "x_": 2.070000171661377,
+        "y_": 2.7939677238464355e-08,
+        "z_": 0.0
+      },
+      "width": 100.0
+    },
+    "Vector in.002": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1823.5367431640625,
+        478.4652099609375
+      ],
+      "params": {
+        "x_": 0.0,
+        "y_": 1.2300000190734863,
+        "z_": 0.0
+      },
+      "width": 100.0
+    },
+    "Vector in.003": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -271.4910888671875,
+        -503.54180908203125
+      ],
+      "params": {
+        "x_": -0.35999998450279236,
+        "y_": 1.8599998950958252,
+        "z_": 0.23999997973442078
+      },
+      "width": 100.0
+    },
+    "Vector in.004": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -101.5870590209961,
+        -1040.9610595703125
+      ],
+      "params": {
+        "x_": 0.0,
+        "y_": 0.0
+      },
+      "width": 100.0
+    },
+    "Vector in.005": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -276.2821044921875,
+        -644.0529174804688
+      ],
+      "params": {
+        "x_": -0.45000001788139343,
+        "y_": 2.669999837875366,
+        "z_": 0.9899998903274536
+      },
+      "width": 100.0
+    },
+    "Vector in.006": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -284.2669677734375,
+        -784.5642700195312
+      ],
+      "params": {
+        "x_": 0.3599999248981476,
+        "y_": 3.5099997520446777,
+        "z_": 0.32999998331069946
+      },
+      "width": 106.3878173828125
+    },
+    "Vector in.007": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -325.7616271972656,
+        -940.6852416992188
+      ],
+      "params": {
+        "x_": 0.1199999451637268,
+        "y_": 4.289999485015869,
+        "z_": 1.4999998807907104
+      },
+      "width": 106.3878173828125
+    },
+    "Vector in.008": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -291.7724609375,
+        -1963.0552978515625
+      ],
+      "params": {
+        "x_": -0.32999998331069946,
+        "y_": 3.119999885559082,
+        "z_": 1.350000023841858
+      },
+      "width": 100.0
+    },
+    "Vector in.009": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -283.12750244140625,
+        -2050.38134765625
+      ],
+      "params": {
+        "x_": 0.060000017285346985,
+        "y_": 1.2899999618530273,
+        "z_": 1.6499998569488525
+      },
+      "width": 100.0
+    },
+    "Vector in.010": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -310.16448974609375,
+        -2320.814697265625
+      ],
+      "params": {
+        "x_": 3.3527612686157227e-08,
+        "y_": 0.0,
+        "z_": 0.0
+      },
+      "width": 100.0
+    },
+    "Vector in.011": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -260.8482666015625,
+        -2193.03369140625
+      ],
+      "params": {
+        "x_": 0.0899999737739563,
+        "y_": 1.799999713897705,
+        "z_": 0.39000001549720764
+      },
+      "width": 100.0
+    },
+    "Vector in.012": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2237.544189453125,
+        45.027313232421875
+      ],
+      "params": {
+        "y_": 0.0,
+        "z_": 12.459999084472656
+      },
+      "width": 100.0
+    },
+    "Vector in.013": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1777.3331298828125,
+        -677.4996337890625
+      ],
+      "params": {
+        "x_": 1.2899998426437378,
+        "y_": 4.289999961853027,
+        "z_": 1.6200000047683716
+      },
+      "width": 100.0
+    },
+    "Vector in.014": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1820.3778076171875,
+        -1289.5299072265625
+      ],
+      "params": {
+        "x_": 3.3527612686157227e-08,
+        "y_": 0.0
+      },
+      "width": 100.0
+    },
+    "Vector in.015": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1780.2340087890625,
+        -882.4188232421875
+      ],
+      "params": {
+        "x_": 0.6600000262260437,
+        "y_": 4.710000038146973,
+        "z_": 1.8600000143051147
+      },
+      "width": 100.0
+    },
+    "Vector in.016": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        1778.31103515625,
+        -1044.8807373046875
+      ],
+      "params": {
+        "x_": 0.7200000286102295,
+        "y_": 4.170000076293945,
+        "z_": 1.8600000143051147
+      },
+      "width": 100.0
+    },
+    "Vector in.017": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2286.22119140625,
+        -137.72508239746094
+      ],
+      "params": {
+        "x_": 0.0,
+        "y_": 0.05000001937150955,
+        "z_": 2.2799999713897705
+      },
+      "width": 100.0
+    },
+    "Vector in.018": {
+      "bl_idname": "GenVectorsNode",
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2601.76171875,
+        -1227.585205078125
+      ],
+      "params": {
+        "x_": 0.0,
+        "y_": 0.29999998211860657,
+        "z_": 0.0
+      },
+      "width": 100.0
+    },
+    "Viewer Draw": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        744.12744140625,
+        -817.9149780273438
+      ],
+      "params": {
+        "activate": 0
+      },
+      "use_custom_color": true,
+      "width": 140.0
+    },
+    "Viewer Draw.001": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        474.192138671875,
+        -2036.875732421875
+      ],
+      "params": {
+        "activate": 0
+      },
+      "use_custom_color": true,
+      "width": 140.0
+    },
+    "Viewer Draw.002": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        3066.9306640625,
+        -939.4237060546875
+      ],
+      "params": {
+        "activate": 0
+      },
+      "use_custom_color": true,
+      "width": 140.0
+    },
+    "Wifi in": {
+      "bl_idname": "WifiInNode",
+      "color": [
+        0.6740000247955322,
+        0.24199999868869781,
+        0.3630000054836273
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -279.49853515625,
+        -2147.617431640625
+      ],
+      "params": {
+        "base_name": "a",
+        "var_name": "a"
+      },
+      "use_custom_color": true,
+      "width": 140.0
+    },
+    "Wifi in.001": {
+      "bl_idname": "WifiInNode",
+      "color": [
+        0.6740000247955322,
+        0.24199999868869781,
+        0.3630000054836273
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        -420.61285400390625,
+        -2171.0263671875
+      ],
+      "params": {
+        "base_name": "b",
+        "var_name": "b"
+      },
+      "use_custom_color": true,
+      "width": 140.0
+    },
+    "Wifi in.002": {
+      "bl_idname": "WifiInNode",
+      "color": [
+        0.6740000247955322,
+        0.24199999868869781,
+        0.3630000054836273
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -262.6724853515625,
+        -1101.51708984375
+      ],
+      "params": {
+        "base_name": "c",
+        "var_name": "c"
+      },
+      "use_custom_color": true,
+      "width": 140.0
+    },
+    "Wifi in.004": {
+      "bl_idname": "WifiInNode",
+      "color": [
+        0.6740000247955322,
+        0.24199999868869781,
+        0.3630000054836273
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        -306.24371337890625,
+        -1264.19970703125
+      ],
+      "params": {
+        "base_name": "e",
+        "var_name": "e"
+      },
+      "use_custom_color": true,
+      "width": 140.0
+    },
+    "Wifi out": {
+      "bl_idname": "WifiOutNode",
+      "color": [
+        0.6740000247955322,
+        0.24199999868869781,
+        0.3630000054836273
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        2022.7469482421875,
+        -341.7440490722656
+      ],
+      "params": {
+        "var_name": "a"
+      },
+      "use_custom_color": true,
+      "width": 140.0
+    },
+    "Wifi out.001": {
+      "bl_idname": "WifiOutNode",
+      "color": [
+        0.6740000247955322,
+        0.24199999868869781,
+        0.3630000054836273
+      ],
+      "height": 100.0,
+      "hide": true,
+      "label": "",
+      "location": [
+        2010.01513671875,
+        -200.63145446777344
+      ],
+      "params": {
+        "var_name": "b",
+        "var_names": "b"
+      },
+      "use_custom_color": true,
+      "width": 140.0
+    },
+    "Wifi out.002": {
+      "bl_idname": "WifiOutNode",
+      "color": [
+        0.6740000247955322,
+        0.24199999868869781,
+        0.3630000054836273
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2161.76171875,
+        -1435.014892578125
+      ],
+      "params": {
+        "var_name": "c",
+        "var_names": "c"
+      },
+      "use_custom_color": true,
+      "width": 140.0
+    },
+    "Wifi out.003": {
+      "bl_idname": "WifiOutNode",
+      "color": [
+        0.6740000247955322,
+        0.24199999868869781,
+        0.3630000054836273
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2243.606201171875,
+        -1645.45849609375
+      ],
+      "params": {
+        "var_name": "e",
+        "var_names": "e"
+      },
+      "use_custom_color": true,
+      "width": 140.0
+    },
+    "seat": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        2894.369140625,
+        464.4949951171875
+      ],
+      "params": {
+        "activate": 0
+      },
+      "use_custom_color": true,
+      "width": 140.0
+    },
+    "wheels": {
+      "bl_idname": "ViewerNode2",
+      "color": [
+        1.0,
+        0.30000001192092896,
+        0.0
+      ],
+      "height": 100.0,
+      "hide": false,
+      "label": "",
+      "location": [
+        624.5780029296875,
+        405.3154602050781
+      ],
+      "params": {
+        "activate": 0
+      },
+      "use_custom_color": true,
+      "width": 140.0
+    }
+  },
+  "update_lists": [
+    [
+      "Float.001",
+      0,
+      "Random",
+      1
+    ],
+    [
+      "Random",
+      0,
+      "List Slice.011",
+      0
+    ],
+    [
+      "List Slice.011",
+      0,
+      "Map Range.013",
+      0
+    ],
+    [
+      "Map Range.013",
+      0,
+      "Wifi in.002",
+      0
+    ],
+    [
+      "Random",
+      0,
+      "List Slice.009",
+      0
+    ],
+    [
+      "Random",
+      0,
+      "List Slice.003",
+      0
+    ],
+    [
+      "List Slice.003",
+      0,
+      "Map Range.003",
+      0
+    ],
+    [
+      "Random",
+      0,
+      "List Slice.008",
+      0
+    ],
+    [
+      "List Slice.008",
+      0,
+      "Map Range.010",
+      0
+    ],
+    [
+      "Map Range.010",
+      0,
+      "Wifi in",
+      0
+    ],
+    [
+      "Random",
+      0,
+      "List Slice.005",
+      0
+    ],
+    [
+      "Random",
+      0,
+      "List Slice.002",
+      0
+    ],
+    [
+      "List Slice.002",
+      0,
+      "Map Range",
+      0
+    ],
+    [
+      "List Slice.005",
+      0,
+      "Map Range.007",
+      0
+    ],
+    [
+      "List Slice.009",
+      0,
+      "Map Range.011",
+      0
+    ],
+    [
+      "Map Range.011",
+      0,
+      "Wifi in.001",
+      0
+    ],
+    [
+      "Wifi out.001",
+      0,
+      "Math MK2.003",
+      0
+    ],
+    [
+      "Wifi out",
+      0,
+      "Math MK2.002",
+      0
+    ],
+    [
+      "Math MK2.002",
+      0,
+      "Vector in.017",
+      1
+    ],
+    [
+      "Math MK2.003",
+      0,
+      "Vector in.017",
+      2
+    ],
+    [
+      "Random",
+      0,
+      "List Slice.013",
+      0
+    ],
+    [
+      "List Slice.013",
+      0,
+      "Map Range.015",
+      0
+    ],
+    [
+      "Random",
+      0,
+      "List Slice.014",
+      0
+    ],
+    [
+      "List Slice.014",
+      0,
+      "Map Range.016",
+      0
+    ],
+    [
+      "Random",
+      0,
+      "List Slice.015",
+      0
+    ],
+    [
+      "List Slice.015",
+      0,
+      "Map Range.017",
+      0
+    ],
+    [
+      "Map Range.015",
+      0,
+      "Torus",
+      0
+    ],
+    [
+      "Map Range.016",
+      0,
+      "Torus",
+      1
+    ],
+    [
+      "Map Range.017",
+      0,
+      "Torus",
+      2
+    ],
+    [
+      "Torus",
+      0,
+      "Rotation",
+      0
+    ],
+    [
+      "Rotation",
+      0,
+      "Mirror",
+      0
+    ],
+    [
+      "Vector in",
+      0,
+      "Mirror",
+      1
+    ],
+    [
+      "Mirror",
+      0,
+      "List Join",
+      0
+    ],
+    [
+      "Rotation",
+      0,
+      "List Join",
+      1
+    ],
+    [
+      "Random",
+      0,
+      "List Slice.010",
+      0
+    ],
+    [
+      "List Slice.010",
+      0,
+      "Map Range.012",
+      0
+    ],
+    [
+      "Vector in.004",
+      0,
+      "Matrix in.001",
+      0
+    ],
+    [
+      "Random",
+      0,
+      "List Slice.012",
+      0
+    ],
+    [
+      "List Slice.012",
+      0,
+      "Map Range.014",
+      0
+    ],
+    [
+      "Map Range.013",
+      0,
+      "Vector in.007",
+      1
+    ],
+    [
+      "Map Range.014",
+      0,
+      "Vector in.007",
+      2
+    ],
+    [
+      "Random",
+      0,
+      "List Slice.004",
+      0
+    ],
+    [
+      "List Slice.004",
+      0,
+      "Map Range.004",
+      0
+    ],
+    [
+      "List Slice.005",
+      0,
+      "Map Range.006",
+      0
+    ],
+    [
+      "Map Range.003",
+      0,
+      "Vector in.005",
+      0
+    ],
+    [
+      "Map Range.004",
+      0,
+      "Vector in.005",
+      1
+    ],
+    [
+      "Map Range.006",
+      0,
+      "Vector in.005",
+      2
+    ],
+    [
+      "Random",
+      0,
+      "List Slice",
+      0
+    ],
+    [
+      "List Slice",
+      0,
+      "Map Range.002",
+      0
+    ],
+    [
+      "Random",
+      0,
+      "List Slice.001",
+      0
+    ],
+    [
+      "List Slice.001",
+      0,
+      "Map Range.001",
+      0
+    ],
+    [
+      "Map Range",
+      0,
+      "Vector in.003",
+      0
+    ],
+    [
+      "Map Range.001",
+      0,
+      "Vector in.003",
+      1
+    ],
+    [
+      "Map Range.002",
+      0,
+      "Vector in.003",
+      2
+    ],
+    [
+      "Vector in.003",
+      0,
+      "List Join.004",
+      0
+    ],
+    [
+      "Vector in.005",
+      0,
+      "List Join.004",
+      1
+    ],
+    [
+      "Vector in.006",
+      0,
+      "List Join.004",
+      2
+    ],
+    [
+      "Vector in.007",
+      0,
+      "List Join.004",
+      3
+    ],
+    [
+      "List Join.004",
+      0,
+      "Mirror.001",
+      0
+    ],
+    [
+      "Matrix in.001",
+      0,
+      "Mirror.001",
+      1
+    ],
+    [
+      "List Join.004",
+      0,
+      "List Join.003",
+      0
+    ],
+    [
+      "Mirror.001",
+      0,
+      "List Join.003",
+      1
+    ],
+    [
+      "List Slice.012",
+      0,
+      "Wifi in.004",
+      0
+    ],
+    [
+      "Wifi out.003",
+      0,
+      "Math MK2.005",
+      0
+    ],
+    [
+      "Wifi out.002",
+      0,
+      "Math MK2.004",
+      0
+    ],
+    [
+      "Math MK2.004",
+      0,
+      "Vector in.018",
+      1
+    ],
+    [
+      "Math MK2.005",
+      0,
+      "Vector in.018",
+      2
+    ],
+    [
+      "Vector in.018",
+      0,
+      "Matrix in.004",
+      0
+    ],
+    [
+      "Torus",
+      2,
+      "List Join.001",
+      0
+    ],
+    [
+      "Torus",
+      2,
+      "List Join.001",
+      1
+    ],
+    [
+      "Vector in.014",
+      0,
+      "Matrix in.003",
+      0
+    ],
+    [
+      "Float",
+      0,
+      "Math MK2",
+      0
+    ],
+    [
+      "Math MK2",
+      0,
+      "Vector in.012",
+      0
+    ],
+    [
+      "Float",
+      0,
+      "Vector in.012",
+      1
+    ],
+    [
+      "Random",
+      0,
+      "List Slice.006",
+      0
+    ],
+    [
+      "List Slice.006",
+      0,
+      "Map Range.008",
+      0
+    ],
+    [
+      "List Slice.004",
+      0,
+      "Map Range.005",
+      0
+    ],
+    [
+      "Map Range.008",
+      0,
+      "Vector in.008",
+      0
+    ],
+    [
+      "Map Range.005",
+      0,
+      "Vector in.008",
+      1
+    ],
+    [
+      "Map Range.007",
+      0,
+      "Vector in.008",
+      2
+    ],
+    [
+      "Vector in.017",
+      0,
+      "Matrix in",
+      0
+    ],
+    [
+      "Vector in.012",
+      0,
+      "Matrix in",
+      2
+    ],
+    [
+      "List Input",
+      0,
+      "Vector in.002",
+      1
+    ],
+    [
+      "Vector in.010",
+      0,
+      "Matrix in.002",
+      0
+    ],
+    [
+      "Random",
+      0,
+      "List Slice.007",
+      0
+    ],
+    [
+      "List Slice.007",
+      0,
+      "Map Range.009",
+      0
+    ],
+    [
+      "Map Range.009",
+      0,
+      "Vector in.009",
+      0
+    ],
+    [
+      "Map Range.010",
+      0,
+      "Vector in.009",
+      1
+    ],
+    [
+      "Map Range.011",
+      0,
+      "Vector in.009",
+      2
+    ],
+    [
+      "Map Range.002",
+      0,
+      "Math MK2.001",
+      0
+    ],
+    [
+      "Map Range.012",
+      0,
+      "Vector in.011",
+      0
+    ],
+    [
+      "Math MK2.001",
+      0,
+      "Vector in.011",
+      2
+    ],
+    [
+      "Vector in.008",
+      0,
+      "List Join.005",
+      0
+    ],
+    [
+      "Vector in.009",
+      0,
+      "List Join.005",
+      1
+    ],
+    [
+      "Vector in.011",
+      0,
+      "List Join.005",
+      2
+    ],
+    [
+      "List Join.005",
+      0,
+      "Mirror.002",
+      0
+    ],
+    [
+      "Matrix in.002",
+      0,
+      "Mirror.002",
+      1
+    ],
+    [
+      "List Join.005",
+      0,
+      "List Join.006",
+      0
+    ],
+    [
+      "Mirror.002",
+      0,
+      "List Join.006",
+      1
+    ],
+    [
+      "List Join",
+      0,
+      "Triangulate mesh",
+      0
+    ],
+    [
+      "List Join.001",
+      0,
+      "Triangulate mesh",
+      2
+    ],
+    [
+      "Vector in.013",
+      0,
+      "List Join.007",
+      0
+    ],
+    [
+      "Vector in.015",
+      0,
+      "List Join.007",
+      1
+    ],
+    [
+      "Vector in.016",
+      0,
+      "List Join.007",
+      2
+    ],
+    [
+      "List Join.007",
+      0,
+      "Mirror.003",
+      0
+    ],
+    [
+      "Matrix in.003",
+      0,
+      "Mirror.003",
+      1
+    ],
+    [
+      "List Join.007",
+      0,
+      "List Join.008",
+      0
+    ],
+    [
+      "Mirror.003",
+      0,
+      "List Join.008",
+      1
+    ],
+    [
+      "Vector in.002",
+      0,
+      "List Join.002",
+      0
+    ],
+    [
+      "Vector in.001",
+      0,
+      "List Join.002",
+      1
+    ],
+    [
+      "List Join.002",
+      0,
+      "Convex Hull",
+      0
+    ],
+    [
+      "Convex Hull",
+      0,
+      "Extrude Separate Faces",
+      0
+    ],
+    [
+      "Convex Hull",
+      1,
+      "Extrude Separate Faces",
+      2
+    ],
+    [
+      "List Join.006",
+      0,
+      "Convex Hull.002",
+      0
+    ],
+    [
+      "List Join.008",
+      0,
+      "Convex Hull.003",
+      0
+    ],
+    [
+      "Convex Hull.003",
+      0,
+      "Matrix Apply (verts).001",
+      0
+    ],
+    [
+      "Matrix in.004",
+      0,
+      "Matrix Apply (verts).001",
+      1
+    ],
+    [
+      "Convex Hull.002",
+      0,
+      "Viewer Draw.001",
+      0
+    ],
+    [
+      "Convex Hull.002",
+      1,
+      "Viewer Draw.001",
+      1
+    ],
+    [
+      "Extrude Separate Faces",
+      0,
+      "Matrix Apply (verts)",
+      0
+    ],
+    [
+      "Matrix in",
+      0,
+      "Matrix Apply (verts)",
+      1
+    ],
+    [
+      "Matrix Apply (verts)",
+      0,
+      "seat",
+      0
+    ],
+    [
+      "Extrude Separate Faces",
+      2,
+      "seat",
+      1
+    ],
+    [
+      "Triangulate mesh",
+      0,
+      "wheels",
+      0
+    ],
+    [
+      "Triangulate mesh",
+      2,
+      "wheels",
+      1
+    ],
+    [
+      "List Join.003",
+      0,
+      "Convex Hull.001",
+      0
+    ],
+    [
+      "Matrix Apply (verts).001",
+      0,
+      "Viewer Draw.002",
+      0
+    ],
+    [
+      "Convex Hull.003",
+      1,
+      "Viewer Draw.002",
+      1
+    ],
+    [
+      "Convex Hull.001",
+      0,
+      "Viewer Draw",
+      0
+    ],
+    [
+      "Convex Hull.001",
+      1,
+      "Viewer Draw",
+      1
+    ]
+  ]
+}
